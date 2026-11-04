@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t">
+<title id="t">Controle de videogame roxo cercado de faíscas</title>
+<defs>
+  <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b2240"/><stop offset="1" stop-color="#0f1320"/></linearGradient>
+  <linearGradient id="ciano" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+  <linearGradient id="roxo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  <linearGradient id="ambar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+  <radialGradient id="brilho" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="500" fill="url(#fundo)"/>
+<line x1="0" y1="0" x2="0" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="40" y1="0" x2="40" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="80" y1="0" x2="80" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="120" y1="0" x2="120" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="160" y1="0" x2="160" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="200" y1="0" x2="200" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="240" y1="0" x2="240" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="280" y1="0" x2="280" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="320" y1="0" x2="320" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="360" y1="0" x2="360" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="400" y1="0" x2="400" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="440" y1="0" x2="440" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="480" y1="0" x2="480" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="520" y1="0" x2="520" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="560" y1="0" x2="560" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="600" y1="0" x2="600" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="640" y1="0" x2="640" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="680" y1="0" x2="680" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="720" y1="0" x2="720" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="760" y1="0" x2="760" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="0" x2="800" y2="0" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="40" x2="800" y2="40" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="80" x2="800" y2="80" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="120" x2="800" y2="120" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="160" x2="800" y2="160" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="200" x2="800" y2="200" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="240" x2="800" y2="240" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="280" x2="800" y2="280" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="320" x2="800" y2="320" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="360" x2="800" y2="360" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="400" x2="800" y2="400" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="440" x2="800" y2="440" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="480" x2="800" y2="480" stroke="#ffffff" stroke-opacity="0.035"/>
+<circle cx="443" cy="188" r="2" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="204" cy="85" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="603" cy="198" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="68" cy="22" r="2" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="68" cy="140" r="1" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="80" cy="162" r="1" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="423" cy="40" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="644" cy="30" r="2" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="277" cy="62" r="1.5" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="281" cy="111" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="478" cy="90" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="479" cy="169" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="560" cy="64" r="1.5" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="367" cy="235" r="1" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="388" cy="82" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="566" cy="190" r="1.5" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="693" cy="219" r="1.5" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="147" cy="77" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="770" cy="151" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="298" cy="164" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="218" cy="185" r="1.5" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="267" cy="241" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="659" cy="118" r="1.5" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="13" cy="95" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="175" cy="199" r="2" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="584" cy="12" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="717" cy="241" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="388" cy="159" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="140" cy="20" r="1.5" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="50" cy="240" r="1.5" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="400" cy="250" r="190" fill="url(#brilho)"/>
+<path d="M250 190 h300 a70 70 0 0 1 70 70 l10 70 a40 40 0 0 1 -70 20 l-40 -50 h-240 l-40 50 a40 40 0 0 1 -70 -20 l10 -70 a70 70 0 0 1 70 -70z" fill="url(#roxo)"/>
+<path d="M250 190 h300 a70 70 0 0 1 70 70 l2 14 h-444 l2 -14 a70 70 0 0 1 70 -70z" fill="#ddd6fe" opacity=".25"/>
+<rect x="290" y="244" width="22" height="66" rx="4" fill="#0f1320"/><rect x="268" y="266" width="66" height="22" rx="4" fill="#0f1320"/>
+<circle cx="500" cy="254" r="13" fill="#22d3ee"/>
+<circle cx="530" cy="282" r="13" fill="#fbbf24"/>
+<circle cx="470" cy="282" r="13" fill="#34d399"/>
+<circle cx="500" cy="310" r="13" fill="#f87171"/>
+<circle cx="360" cy="330" r="22" fill="#0f1320"/><circle cx="360" cy="330" r="12" fill="#312e81"/>
+<circle cx="440" cy="330" r="22" fill="#0f1320"/><circle cx="440" cy="330" r="12" fill="#312e81"/>
+<path d="M620 132 L624.5 145.5 L638 150 L624.5 154.5 L620 168 L615.5 154.5 L602 150 L615.5 145.5z" fill="#fde68a"/>
+<path d="M170 146 L173.5 156.5 L184 160 L173.5 163.5 L170 174 L166.5 163.5 L156 160 L166.5 156.5z" fill="#fde68a"/>
+<path d="M660 318 L663.0 327.0 L672 330 L663.0 333.0 L660 342 L657.0 333.0 L648 330 L657.0 327.0z" fill="#fde68a"/>
+<path d="M150 320 L152.5 327.5 L160 330 L152.5 332.5 L150 340 L147.5 332.5 L140 330 L147.5 327.5z" fill="#fde68a"/>
+<text x="400" y="440" font-family="Inter, Arial" font-size="20" font-weight="700" fill="#c4b5fd" text-anchor="middle" letter-spacing="6">LANÇAMENTOS</text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t">
+<title id="t">Monitor mostrando uma nota 8,5 com estrelas e barras de avaliação</title>
+<defs>
+  <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b2240"/><stop offset="1" stop-color="#0f1320"/></linearGradient>
+  <linearGradient id="ciano" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+  <linearGradient id="roxo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  <linearGradient id="ambar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+  <radialGradient id="brilho" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="500" fill="url(#fundo)"/>
+<line x1="0" y1="0" x2="0" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="40" y1="0" x2="40" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="80" y1="0" x2="80" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="120" y1="0" x2="120" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="160" y1="0" x2="160" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="200" y1="0" x2="200" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="240" y1="0" x2="240" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="280" y1="0" x2="280" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="320" y1="0" x2="320" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="360" y1="0" x2="360" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="400" y1="0" x2="400" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="440" y1="0" x2="440" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="480" y1="0" x2="480" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="520" y1="0" x2="520" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="560" y1="0" x2="560" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="600" y1="0" x2="600" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="640" y1="0" x2="640" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="680" y1="0" x2="680" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="720" y1="0" x2="720" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="760" y1="0" x2="760" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="0" x2="800" y2="0" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="40" x2="800" y2="40" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="80" x2="800" y2="80" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="120" x2="800" y2="120" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="160" x2="800" y2="160" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="200" x2="800" y2="200" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="240" x2="800" y2="240" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="280" x2="800" y2="280" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="320" x2="800" y2="320" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="360" x2="800" y2="360" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="400" x2="800" y2="400" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="440" x2="800" y2="440" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="480" x2="800" y2="480" stroke="#ffffff" stroke-opacity="0.035"/>
+<circle cx="708" cy="73" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="583" cy="236" r="2" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="252" cy="231" r="1" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="432" cy="16" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="431" cy="215" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="173" cy="211" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="49" cy="229" r="2" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="214" cy="219" r="2" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="322" cy="220" r="1" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="34" cy="178" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="346" cy="81" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="369" cy="174" r="2" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="38" cy="39" r="1.5" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="604" cy="77" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="620" cy="121" r="1.5" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="456" cy="165" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="600" cy="58" r="1.5" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="735" cy="121" r="1" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="382" cy="120" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="648" cy="90" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="529" cy="89" r="2" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="422" cy="188" r="1.5" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="206" cy="117" r="2" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="640" cy="155" r="1.5" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="571" cy="223" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="303" cy="63" r="2" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="486" cy="123" r="2" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="533" cy="131" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="300" cy="141" r="1.5" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="779" cy="70" r="1.5" fill="#e2e8f0" opacity="0.5"/>
+<rect x="170" y="110" width="460" height="290" rx="18" fill="#0b1020" stroke="#334155" stroke-width="6"/>
+<rect x="190" y="130" width="420" height="250" rx="10" fill="#131a30"/>
+<rect x="340" y="400" width="120" height="16" fill="#334155"/><rect x="290" y="416" width="220" height="12" rx="6" fill="#334155"/>
+<polygon points="240,150 247,168 266,168 251,180 257,198 240,187 223,198 229,180 214,168 233,168" fill="url(#ambar)"/>
+<polygon points="292,150 299,168 318,168 303,180 309,198 292,187 275,198 281,180 266,168 285,168" fill="url(#ambar)"/>
+<polygon points="344,150 351,168 370,168 355,180 361,198 344,187 327,198 333,180 318,168 337,168" fill="url(#ambar)"/>
+<polygon points="396,150 403,168 422,168 407,180 413,198 396,187 379,198 385,180 370,168 389,168" fill="url(#ambar)"/>
+<polygon points="448,150 455,168 474,168 459,180 465,198 448,187 431,198 437,180 422,168 441,168" fill="#334155"/>
+<text x="560" y="190" font-family="Inter, Arial" font-size="44" font-weight="800" fill="#fde68a" text-anchor="middle">8,5</text>
+<text x="214" y="244" font-family="Inter, Arial" font-size="13" fill="#aab2c8">Jogabilidade</text>
+<rect x="330" y="230" width="240" height="18" rx="9" fill="#1f2a48"/><rect x="330" y="230" width="180" height="18" rx="9" fill="#22d3ee"/>
+<text x="214" y="278" font-family="Inter, Arial" font-size="13" fill="#aab2c8">História</text>
+<rect x="330" y="264" width="240" height="18" rx="9" fill="#1f2a48"/><rect x="330" y="264" width="150" height="18" rx="9" fill="#a78bfa"/>
+<text x="214" y="312" font-family="Inter, Arial" font-size="13" fill="#aab2c8">Som</text>
+<rect x="330" y="298" width="240" height="18" rx="9" fill="#1f2a48"/><rect x="330" y="298" width="120" height="18" rx="9" fill="#34d399"/>
+<text x="214" y="346" font-family="Inter, Arial" font-size="13" fill="#aab2c8">Desempenho</text>
+<rect x="330" y="332" width="240" height="18" rx="9" fill="#1f2a48"/><rect x="330" y="332" width="90" height="18" rx="9" fill="#f87171"/>
+<text x="400" y="470" font-family="Inter, Arial" font-size="20" font-weight="700" fill="#67e8f9" text-anchor="middle" letter-spacing="6">ANÁLISES</text>
+</svg>

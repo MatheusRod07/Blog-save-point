@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- Feito por Teteu 🤓 e Vinícius — AOP2 Front-end · UVV · Análise e Desenvolvimento de Sistemas -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Save Point é um blog sobre games: lançamentos, análises com critério e guias práticos para jogar melhor gastando menos.">
+  <meta name="author" content="Matheus Rodrigues Dantas e Vinícius Carneiro de Oliveira">
+  <title>Home · Save Point</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="marca" href="index.html">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs><rect width="40" height="40" rx="10" fill="#1a2033"/><polygon points="20,6 30,20 20,34 10,20" fill="url(#lg)"/><polygon points="20,6 30,20 20,20" fill="#a5f3fc" opacity=".7"/></svg>
+        <span>Save Point<small>blog sobre games</small></span>
+      </a>
+      <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">☰ Menu</button>
+      <nav class="nav-principal" id="menu" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="lancamentos.html">Lançamentos</a></li>
+          <li><a href="analises.html">Análises</a></li>
+          <li><a href="guias.html">Guias</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero" aria-labelledby="titulo-home">
+      <div>
+        <p class="selo">Blog sobre games</p>
+        <h1 id="titulo-home">Salve o progresso. Aqui a gente fala de jogos sem spoiler e sem enrolação.</h1>
+        <p class="chamada">O Save Point é um blog sobre games para quem joga no tempo que sobra: acompanhamos os <strong>lançamentos</strong> que valem a atenção, publicamos <strong>análises</strong> com nota e critérios claros e escrevemos <strong>guias</strong> práticos para você jogar melhor, gastar menos e se divertir mais.</p>
+        <div class="acoes">
+          <a class="botao" href="lancamentos.html">Ver os lançamentos</a>
+          <a class="botao secundario" href="guias.html">Começar pelos guias</a>
+        </div>
+      </div>
+      <div class="ilustracao">
+        <img src="img/hero.svg" alt="Ilustração em pixel art de uma paisagem noturna com um cristal de save point brilhando" width="800" height="560">
+      </div>
+    </section>
+
+    <section aria-labelledby="titulo-sobre">
+      <div class="secao-cabecalho">
+        <h2 id="titulo-sobre">O que você encontra aqui</h2>
+        <p>Três seções, atualizadas toda semana.</p>
+      </div>
+      <p>Cada seção tem um papel. Em <a href="lancamentos.html">Lançamentos</a> você vê o calendário do mês, o que chega de graça nas assinaturas e o que vale esperar a primeira promoção. Em <a href="analises.html">Análises</a> explicamos como damos nota (jogabilidade, história, som e desempenho) e publicamos as avaliações completas. Em <a href="guias.html">Guias</a> ficam os tutoriais: montar um setup com pouco dinheiro, jogar cooperativo com amigos e organizar a sua lista de pendências. Na página <a href="contatos.html">Contatos</a> você fala com a gente, sugere pautas e tira dúvidas.</p>
+    </section>
+
+    <section aria-labelledby="titulo-destaques">
+      <div class="secao-cabecalho">
+        <h2 id="titulo-destaques">Conteúdos em destaque</h2>
+        <p>Clique na imagem para abrir a seção.</p>
+      </div>
+      <div class="destaques">
+        <article class="cartao">
+          <a class="capa" href="lancamentos.html" aria-label="Abrir a seção Lançamentos">
+            <img src="img/capa-lancamentos.svg" alt="Controle de videogame roxo cercado de faíscas" width="800" height="500">
+          </a>
+          <div class="corpo">
+            <span class="etiqueta">Lançamentos</span>
+            <h3><a href="lancamentos.html">O que chega em novembro</a></h3>
+            <p>Calendário do mês com as datas, as plataformas e um resumo honesto do que esperar de cada jogo — incluindo o que entra de graça nas assinaturas.</p>
+            <a class="link-cartao" href="lancamentos.html">Ver os lançamentos →</a>
+          </div>
+        </article>
+        <article class="cartao">
+          <a class="capa" href="analises.html" aria-label="Abrir a seção Análises">
+            <img src="img/capa-analises.svg" alt="Monitor mostrando uma nota 8,5 com estrelas e barras de avaliação" width="800" height="500">
+          </a>
+          <div class="corpo">
+            <span class="etiqueta ciano">Análises</span>
+            <h3><a href="analises.html">Notas com critério, não com hype</a></h3>
+            <p>Avaliamos jogabilidade, história, som e desempenho, dizemos quantas horas levamos para terminar e para quem o jogo é (e para quem não é).</p>
+            <a class="link-cartao" href="analises.html">Ler as análises →</a>
+          </div>
+        </article>
+        <article class="cartao">
+          <a class="capa" href="guias.html" aria-label="Abrir a seção Guias">
+            <img src="img/capa-guias.svg" alt="Mapa de papel com um caminho tracejado até uma bandeira e uma bússola" width="800" height="500">
+          </a>
+          <div class="corpo">
+            <span class="etiqueta ambar">Guias</span>
+            <h3><a href="guias.html">Jogue melhor gastando menos</a></h3>
+            <p>Tutoriais passo a passo: setup gamer econômico, como aproveitar promoções, jogos cooperativos para jogar com amigos e como zerar a lista de pendências.</p>
+            <a class="link-cartao" href="guias.html">Abrir os guias →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="titulo-recentes">
+      <div class="secao-cabecalho">
+        <h2 id="titulo-recentes">Publicados esta semana</h2>
+      </div>
+      <div class="grade-2">
+        <div class="caixa">
+          <h3>Últimos posts</h3>
+          <ul class="lista-limpa">
+            <li><a href="lancamentos.html#calendario">Calendário de novembro: 12 jogos, 3 de graça nas assinaturas</a></li>
+            <li><a href="analises.html#criterios">Como damos nota: os quatro critérios do Save Point</a></li>
+            <li><a href="guias.html#setup">Setup gamer com pouco dinheiro: o que comprar primeiro</a></li>
+            <li><a href="guias.html#coop">Sete jogos cooperativos para jogar com quem nunca jogou</a></li>
+            <li><a href="analises.html#backlog">Análise: um metroidvania que respeita o seu tempo</a></li>
+          </ul>
+        </div>
+        <div class="caixa">
+          <h3>Como funciona o blog</h3>
+          <p>Jogamos tudo o que analisamos até o fim (ou dizemos até onde fomos). Não recebemos pagamento de estúdios e não publicamos nota de jogo que não terminamos. Quando um texto tem spoiler, ele vem avisado no título.</p>
+          <p>Quer sugerir um jogo ou corrigir alguma coisa? A página de <a href="contatos.html">Contatos</a> tem um formulário e os nossos e-mails.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h4>Save Point</h4>
+        <p>Um blog sobre games feito como trabalho da disciplina de Front-end (AOP2) do curso de Análise e Desenvolvimento de Sistemas da UVV — Universidade Vila Velha, polo Domingos Martins.</p>
+      </div>
+      <div>
+        <h4>Seções</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lancamentos.html">Lançamentos</a></li>
+          <li><a href="analises.html">Análises</a></li>
+          <li><a href="guias.html">Guias</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Autores</h4>
+        <ul>
+          <li>Matheus Rodrigues Dantas</li>
+          <li>Vinícius Carneiro de Oliveira</li>
+          <li><a href="contatos.html">Fale com a gente</a></li>
+        </ul>
+      </div>
+      <p class="legal"><span>© 2026 Save Point · Conteúdo original dos autores. Ilustrações próprias em SVG.</span><span>Feito com HTML, CSS e um pouco de JavaScript.</span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

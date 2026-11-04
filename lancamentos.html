@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- Feito por Teteu 🤓 e Vinícius — AOP2 Front-end · UVV · Análise e Desenvolvimento de Sistemas -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calendário de lançamentos de games do mês, com datas, plataformas e o que entra de graça nas assinaturas.">
+  <meta name="author" content="Matheus Rodrigues Dantas e Vinícius Carneiro de Oliveira">
+  <title>Lançamentos · Save Point</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="marca" href="index.html">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs><rect width="40" height="40" rx="10" fill="#1a2033"/><polygon points="20,6 30,20 20,34 10,20" fill="url(#lg)"/><polygon points="20,6 30,20 20,20" fill="#a5f3fc" opacity=".7"/></svg>
+        <span>Save Point<small>blog sobre games</small></span>
+      </a>
+      <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">☰ Menu</button>
+      <nav class="nav-principal" id="menu" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lancamentos.html" aria-current="page">Lançamentos</a></li>
+          <li><a href="analises.html">Análises</a></li>
+          <li><a href="guias.html">Guias</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="pagina-topo">
+      <p class="selo">Lançamentos</p>
+      <h1>O que chega em novembro de 2026</h1>
+      <p>Datas, plataformas e um resumo honesto do que esperar. Atualizamos a tabela quando um jogo é adiado — e marcamos o que entra de graça nas assinaturas, porque isso muda a conta no fim do mês.</p>
+    </div>
+
+    <section id="calendario" aria-labelledby="titulo-calendario">
+      <div class="secao-cabecalho">
+        <h2 id="titulo-calendario">Calendário do mês</h2>
+        <p>Datas sujeitas a mudança pelos estúdios.</p>
+      </div>
+      <div class="caixa">
+        <table>
+          <thead>
+            <tr><th>Data</th><th>Jogo</th><th>Plataformas</th><th>Tipo</th><th>Nosso interesse</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>05/11</td><td>Ecos da Falésia</td><td>PC, PS5, Xbox</td><td>Aventura</td><td>Alto</td></tr>
+            <tr><td>07/11</td><td>Rota 77: Caminhoneiros</td><td>PC</td><td>Simulação</td><td>Médio</td></tr>
+            <tr><td>12/11</td><td>Grêmio das Forjas</td><td>PC, Switch</td><td>Indie / crafting</td><td>Alto</td></tr>
+            <tr><td>14/11</td><td>Arena Vetor</td><td>PC, PS5, Xbox</td><td>Competitivo (gratuito)</td><td>Médio</td></tr>
+            <tr><td>19/11</td><td>Maré Baixa</td><td>Switch, PC</td><td>Aventura relaxante</td><td>Alto</td></tr>
+            <tr><td>26/11</td><td>Fortaleza Lunar: Remaster</td><td>PS5, Xbox, PC</td><td>Estratégia</td><td>Médio</td></tr>
+          </tbody>
+        </table>
+        <p class="ajuda" style="margin-top:.8rem">Os títulos acima são exemplos didáticos criados para este trabalho; a estrutura da tabela é a mesma usada para lançamentos reais.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="titulo-destaques-mes">
+      <div class="secao-cabecalho">
+        <h2 id="titulo-destaques-mes">Os três que valem a atenção</h2>
+      </div>
+      <div class="posts">
+        <article class="post">
+          <div class="miniatura"><img src="img/mini-calendario.svg" alt="Calendário com uma data marcada" width="400" height="300"></div>
+          <div>
+            <div class="post-cabecalho">
+              <div>
+                <h3>Ecos da Falésia: a aventura que promete respeitar o seu tempo</h3>
+                <p class="meta"><span>05/11</span><span>PC, PS5, Xbox</span><span>Leitura de 3 min</span></p>
+              </div>
+              <span class="etiqueta">Lançamento</span>
+            </div>
+            <p>Um jogo de exploração em uma ilha costeira dividida em capítulos de uma hora. A proposta é clara: cada sessão termina com uma descoberta e um ponto de salvamento, sem missões de coleta infinitas. O estúdio mostrou um sistema de clima que muda os caminhos disponíveis — chuva fecha trilhas e abre cavernas.</p>
+            <ul>
+              <li><strong>Por que acompanhar:</strong> duração anunciada de 12 a 15 horas e legendas em português.</li>
+              <li><strong>Ponto de atenção:</strong> a versão de PC exige placa de vídeo recente para o modo de qualidade.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="post">
+          <div class="miniatura"><img src="img/mini-indie.svg" alt="Cubo pixelado colorido" width="400" height="300"></div>
+          <div>
+            <div class="post-cabecalho">
+              <div>
+                <h3>Grêmio das Forjas: crafting cooperativo para jogar no sofá</h3>
+                <p class="meta"><span>12/11</span><span>PC, Switch</span><span>Leitura de 2 min</span></p>
+              </div>
+              <span class="etiqueta ciano">Indie</span>
+            </div>
+            <p>Você administra uma oficina medieval com até três amigos na mesma tela. O que chamou a nossa atenção foi o ritmo: pedidos chegam em ondas curtas, com pausa entre elas para organizar o estoque e decidir o que melhorar. É o tipo de jogo que funciona para quem tem 40 minutos livres.</p>
+            <ul>
+              <li><strong>Por que acompanhar:</strong> modo cooperativo local, controles simples e preço de indie.</li>
+              <li><strong>Ponto de atenção:</strong> sem modo online no lançamento.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="post">
+          <div class="miniatura"><img src="img/mini-relogio.svg" alt="Relógio mostrando tempo de jogo" width="400" height="300"></div>
+          <div>
+            <div class="post-cabecalho">
+              <div>
+                <h3>Maré Baixa: o "jogo de fim de dia" que a gente esperava</h3>
+                <p class="meta"><span>19/11</span><span>Switch, PC</span><span>Leitura de 2 min</span></p>
+              </div>
+              <span class="etiqueta ambar">Relaxante</span>
+            </div>
+            <p>Sem inimigos, sem cronômetro: você cuida de um farol, fotografa a fauna da praia e vai liberando trechos da costa. Jogos assim viraram categoria própria, e este parece ter mais conteúdo do que a média — o mapa cresce com as marés ao longo de um calendário de 30 dias no jogo.</p>
+            <ul>
+              <li><strong>Por que acompanhar:</strong> sessões de 15 minutos fazem progresso real.</li>
+              <li><strong>Ponto de atenção:</strong> quem gosta de combate vai achar parado.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="titulo-assinaturas">
+      <div class="secao-cabecalho">
+        <h2 id="titulo-assinaturas">Entra de graça nas assinaturas</h2>
+      </div>
+      <div class="grade-2">
+        <div class="caixa">
+          <h3>Como a gente decide o que comprar</h3>
+          <ul class="lista-limpa">
+            <li>Se entra numa assinatura que você já paga, jogue por lá primeiro.</li>
+            <li>Jogo de estúdio grande costuma ter a primeira promoção em 60 a 90 dias.</li>
+            <li>Indie com modo cooperativo local vale o preço cheio se você joga acompanhado.</li>
+            <li>Remaster só compensa se você não jogou o original nos últimos cinco anos.</li>
+          </ul>
+        </div>
+        <div class="caixa">
+          <h3>Adiados este mês</h3>
+          <p>Dois títulos saíram do calendário de novembro e foram para o primeiro trimestre de 2027. Quando isso acontece, a gente atualiza a tabela acima e explica o motivo no post do jogo. Adiamento não é notícia ruim: quase sempre significa menos problemas de desempenho no lançamento.</p>
+          <p><a href="analises.html">Ver como avaliamos o desempenho →</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h4>Save Point</h4>
+        <p>Um blog sobre games feito como trabalho da disciplina de Front-end (AOP2) do curso de Análise e Desenvolvimento de Sistemas da UVV — Universidade Vila Velha, polo Domingos Martins.</p>
+      </div>
+      <div>
+        <h4>Seções</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lancamentos.html">Lançamentos</a></li>
+          <li><a href="analises.html">Análises</a></li>
+          <li><a href="guias.html">Guias</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Autores</h4>
+        <ul>
+          <li>Matheus Rodrigues Dantas</li>
+          <li>Vinícius Carneiro de Oliveira</li>
+          <li><a href="contatos.html">Fale com a gente</a></li>
+        </ul>
+      </div>
+      <p class="legal"><span>© 2026 Save Point · Conteúdo original dos autores. Ilustrações próprias em SVG.</span><span>Feito com HTML, CSS e um pouco de JavaScript.</span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

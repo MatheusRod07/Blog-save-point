@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- Feito por Teteu 🤓 e Vinícius — AOP2 Front-end · UVV · Análise e Desenvolvimento de Sistemas -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fale com o Save Point: formulário, e-mails e perguntas frequentes.">
+  <meta name="author" content="Matheus Rodrigues Dantas e Vinícius Carneiro de Oliveira">
+  <title>Contatos · Save Point</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="marca" href="index.html">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs><rect width="40" height="40" rx="10" fill="#1a2033"/><polygon points="20,6 30,20 20,34 10,20" fill="url(#lg)"/><polygon points="20,6 30,20 20,20" fill="#a5f3fc" opacity=".7"/></svg>
+        <span>Save Point<small>blog sobre games</small></span>
+      </a>
+      <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">☰ Menu</button>
+      <nav class="nav-principal" id="menu" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lancamentos.html">Lançamentos</a></li>
+          <li><a href="analises.html">Análises</a></li>
+          <li><a href="guias.html">Guias</a></li>
+          <li><a href="contatos.html" aria-current="page">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="pagina-topo">
+      <p class="selo">Contatos</p>
+      <h1>Fale com a gente</h1>
+      <p>Sugestão de pauta, correção, pedido de análise ou só um oi. Respondemos em até três dias úteis. O formulário abaixo é uma demonstração de front-end: ele valida os campos e mostra a confirmação sem enviar dados a um servidor.</p>
+    </div>
+
+    <section aria-labelledby="titulo-form">
+      <div class="grade-2">
+        <div class="caixa">
+          <h2 id="titulo-form" style="font-size:1.4rem">Envie uma mensagem</h2>
+          <form id="form-contato" novalidate>
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Como quer ser chamado" required minlength="2" autocomplete="name">
+            </div>
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required autocomplete="email">
+              <span class="ajuda">Usamos só para responder a sua mensagem.</span>
+            </div>
+            <div class="campo">
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Escolha um assunto</option>
+                <option value="pauta">Sugerir uma pauta</option>
+                <option value="analise">Pedir uma análise</option>
+                <option value="correcao">Apontar uma correção</option>
+                <option value="outro">Outro assunto</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Conte para a gente o que você precisa" required minlength="10"></textarea>
+            </div>
+            <button class="botao" type="submit">Enviar mensagem</button>
+            <p class="mensagem-form" id="mensagem-form" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div>
+          <div class="caixa contato-info">
+            <h3>Outros canais</h3>
+            <dl>
+              <dt>E-mail</dt><dd><a href="mailto:contato@savepoint.blog.br">contato@savepoint.blog.br</a></dd>
+              <dt>Pautas</dt><dd><a href="mailto:pautas@savepoint.blog.br">pautas@savepoint.blog.br</a></dd>
+              <dt>Horário</dt><dd>Segunda a sexta, das 9h às 18h</dd>
+              <dt>Onde</dt><dd>Domingos Martins, Espírito Santo</dd>
+            </dl>
+          </div>
+          <div class="caixa" style="margin-top:1.5rem">
+            <h3>Perguntas frequentes</h3>
+            <details>
+              <summary>Vocês aceitam jogos enviados por estúdios?</summary>
+              <p>Aceitamos cópias para análise, mas a nota não muda por isso e sempre informamos quando a cópia foi cedida.</p>
+            </details>
+            <details>
+              <summary>Posso escrever para o blog?</summary>
+              <p>Pode. Mande uma pauta pelo formulário com o assunto "Sugerir uma pauta" e um parágrafo de exemplo do seu texto.</p>
+            </details>
+            <details>
+              <summary>Como vocês escolhem o que analisar?</summary>
+              <p>Pelo interesse dos leitores (os pedidos que chegam aqui) e pelo que conseguimos terminar dentro do mês.</p>
+            </details>
+          </div>
+          <div class="miniatura" style="margin-top:1.5rem;border-radius:16px;overflow:hidden">
+            <img src="img/capa-contatos.svg" alt="Balão de conversa ciano com linhas de texto" width="800" height="500">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h4>Save Point</h4>
+        <p>Um blog sobre games feito como trabalho da disciplina de Front-end (AOP2) do curso de Análise e Desenvolvimento de Sistemas da UVV — Universidade Vila Velha, polo Domingos Martins.</p>
+      </div>
+      <div>
+        <h4>Seções</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lancamentos.html">Lançamentos</a></li>
+          <li><a href="analises.html">Análises</a></li>
+          <li><a href="guias.html">Guias</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Autores</h4>
+        <ul>
+          <li>Matheus Rodrigues Dantas</li>
+          <li>Vinícius Carneiro de Oliveira</li>
+          <li><a href="contatos.html">Fale com a gente</a></li>
+        </ul>
+      </div>
+      <p class="legal"><span>© 2026 Save Point · Conteúdo original dos autores. Ilustrações próprias em SVG.</span><span>Feito com HTML, CSS e um pouco de JavaScript.</span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

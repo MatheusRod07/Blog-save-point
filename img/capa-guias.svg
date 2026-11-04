@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t">
+<title id="t">Mapa de papel com um caminho tracejado até uma bandeira e uma bússola</title>
+<defs>
+  <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b2240"/><stop offset="1" stop-color="#0f1320"/></linearGradient>
+  <linearGradient id="ciano" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+  <linearGradient id="roxo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  <linearGradient id="ambar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+  <radialGradient id="brilho" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="500" fill="url(#fundo)"/>
+<line x1="0" y1="0" x2="0" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="40" y1="0" x2="40" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="80" y1="0" x2="80" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="120" y1="0" x2="120" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="160" y1="0" x2="160" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="200" y1="0" x2="200" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="240" y1="0" x2="240" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="280" y1="0" x2="280" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="320" y1="0" x2="320" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="360" y1="0" x2="360" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="400" y1="0" x2="400" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="440" y1="0" x2="440" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="480" y1="0" x2="480" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="520" y1="0" x2="520" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="560" y1="0" x2="560" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="600" y1="0" x2="600" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="640" y1="0" x2="640" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="680" y1="0" x2="680" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="720" y1="0" x2="720" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="760" y1="0" x2="760" y2="500" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="0" x2="800" y2="0" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="40" x2="800" y2="40" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="80" x2="800" y2="80" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="120" x2="800" y2="120" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="160" x2="800" y2="160" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="200" x2="800" y2="200" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="240" x2="800" y2="240" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="280" x2="800" y2="280" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="320" x2="800" y2="320" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="360" x2="800" y2="360" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="400" x2="800" y2="400" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="440" x2="800" y2="440" stroke="#ffffff" stroke-opacity="0.035"/>
+<line x1="0" y1="480" x2="800" y2="480" stroke="#ffffff" stroke-opacity="0.035"/>
+<circle cx="213" cy="47" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="260" cy="131" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="434" cy="236" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="516" cy="112" r="1" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="681" cy="186" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="445" cy="66" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="61" cy="152" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="477" cy="44" r="2" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="783" cy="238" r="2" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="571" cy="124" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="470" cy="76" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="543" cy="134" r="1" fill="#e2e8f0" opacity="0.7"/>
+<circle cx="460" cy="29" r="1.5" fill="#e2e8f0" opacity="0.5"/>
+<circle cx="288" cy="95" r="1.5" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="151" cy="48" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="720" cy="49" r="1" fill="#e2e8f0" opacity="0.35"/>
+<circle cx="434" cy="114" r="1.5" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="435" cy="25" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="408" cy="241" r="1" fill="#e2e8f0" opacity="0.9"/>
+<circle cx="498" cy="11" r="1.5" fill="#e2e8f0" opacity="0.7"/>
+<path d="M180 120 l440 -20 l20 300 l-440 30z" fill="#fef3c7"/>
+<path d="M180 120 l440 -20 l-6 14 l-432 22z" fill="#fcd34d" opacity=".6"/>
+<path d="M240 300 q60 -80 120 -20 t120 -30 t100 20" fill="none" stroke="#f59e0b" stroke-width="3" opacity=".5"/>
+<path d="M230 340 q80 -60 160 -10 t140 -20" fill="none" stroke="#f59e0b" stroke-width="3" opacity=".35"/>
+<path d="M230 350 C300 250, 380 320, 440 230 S560 160, 580 150" fill="none" stroke="#7c3aed" stroke-width="6" stroke-dasharray="14 12" stroke-linecap="round"/>
+<circle cx="230" cy="350" r="10" fill="#22d3ee" stroke="#0f1320" stroke-width="4"/>
+<circle cx="330" cy="284" r="10" fill="#22d3ee" stroke="#0f1320" stroke-width="4"/>
+<circle cx="440" cy="230" r="10" fill="#22d3ee" stroke="#0f1320" stroke-width="4"/>
+<circle cx="520" cy="176" r="10" fill="#22d3ee" stroke="#0f1320" stroke-width="4"/>
+<rect x="576" y="110" width="6" height="60" fill="#0f1320"/><polygon points="582,112 640,126 582,142" fill="#f87171"/>
+<circle cx="560" cy="330" r="44" fill="#0f1320" opacity=".9"/><circle cx="560" cy="330" r="36" fill="none" stroke="#67e8f9" stroke-width="3"/>
+<polygon points="560,300 570,330 560,360 550,330" fill="#f87171"/><polygon points="560,300 570,330 550,330" fill="#fecaca"/>
+<text x="400" y="470" font-family="Inter, Arial" font-size="20" font-weight="700" fill="#fde68a" text-anchor="middle" letter-spacing="6">GUIAS</text>
+</svg>
